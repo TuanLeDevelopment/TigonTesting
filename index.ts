@@ -10,9 +10,9 @@ const client = new DiscordJS.Client({
   })
 
 client.on('ready',() => {
-    console.log(`${client.user?.username} is up!`);
+    console.log(`${client.user?.username} is online!`);
   const arrayOfStatus = [
-    `Chào mừng bạn đến SweetieTG`,
+    `Chào Sweeties!`,
     `Tigon in your area <3`,
   ]
 

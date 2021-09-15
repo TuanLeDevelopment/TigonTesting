@@ -28,7 +28,7 @@ client.on('ready',() => {
 
   // Listen for new messages
   client.on('messageCreate', (msg) => {
-    if (msg.content === 'hello') {
+    if (msg.content.toLowerCase() === 'hello') {
       msg.reply({
         content: 'Hé lô',
       })
